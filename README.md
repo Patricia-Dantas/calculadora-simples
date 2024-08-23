@@ -1,10 +1,14 @@
 # calculadora-simples
- Projeto de calculadora simples em python criado no modulo "Lógica de Programação com Python" do curso "Porfissão: Analista de Dados" da EBAC. É recomendável ter o pacote de Python3 instalado.
+ Projeto de calculadora simples em python criado no modulo "Lógica de Programação com Python" do curso "Porfissão: Analista de Dados" da EBAC. É necessário ter o pacote de Python3 instalado, caso não o tenha já instalado, segue instrução de como instalá-lo no Windows: https://python.org.br/instalacao-windows/
 
 Existem dois arquivos: 
   1) <<calculadora.sh>> trata-se de um shell script para ser executado em bash. Ele recebe nome do usuário como input e instrui o python a executar a calculadora. Ao final de uma utilização da calculadora, parabeniza o usuário.
+
+    * Uma vez que o arquivo <<calculadora.sh>> tenha sido baixado, use o terminal para navegar até o diretório onde este se encontra e digite a linha de comando <<bash calculadora.sh>>. 
+
+    * Caso haja erro, é possível executar o comando  <<chmod  u+rwx calculadora.sh>>, caso o arquivo esteja sem a permissão de executar.
      
-  2) <<script_calculadora.py>> trata-se da calculadora. O programa tem tais passos:
+  3) <<script_calculadora.py>> trata-se da calculadora. O programa tem tais passos:
       * Pede primeiro input numerico, transforma-o em float (numero Real).
            * Caso input não seja numérico, avisa e pede novo input
       * Informa as possibilidades de operações: + | - | * | / 
